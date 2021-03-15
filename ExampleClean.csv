@@ -1,18 +1,16 @@
 name,ring,quadrant,isNew,description
-C#,adopt,Languages and Frameworks,TRUE,"<a href='https://docs.microsoft.com/en-us/dotnet/csharp/'>C#</a> is our language of choice. It's strongly-typed, blends functional and object-oriented programming and works on all the OS we need to support."
-TypeScript,adopt,Languages and Frameworks,TRUE,<a href='https://www.typescriptlang.org/'>TypeScript</a> is our default choice for running code in the browser. It's strongly-typed and smoothes out the rough bits of JavaScript.
-Go,trial,Languages and Frameworks,TRUE,<a href='https://golang.org/'>Go</a> is the natural language to use when extending Kubernetes with operators.
-Java,trial,Languages and Frameworks,TRUE,"Redgate purchased Flyway, written in <a href='https://www.oracle.com/java/'>Java</a>. Java is a plausible choice for new products (due to its rich ecosystem), but we default to C#."
-Bash,adopt,Languages and Frameworks,TRUE,<a href='https://www.gnu.org/software/bash/'>Bash</a> is our default choice for scripting internal tools. Everyone should be familiar with the Bash toolkit.
+C#,adopt,Languages and Frameworks,TRUE,"Cool stuff"
+TypeScript,adopt,Languages and Frameworks,TRUE,"Cool stuff"
+Bash,adopt,Languages and Frameworks,TRUE,"Cool stuff"
 PowerShell,hold,Languages and Frameworks,TRUE,Don't use PowerShell for new projects - prefer Bash.
-.NET 5,adopt,Languages and Frameworks,TRUE,"<a href='https://dotnet.microsoft.com/'>.NET 5</a> is now cross-platform and a great choice for desktop, web and cloud-based applications."
+.NET 5,adopt,Languages and Frameworks,TRUE,"Cool stuff"
 .NET Core,hold,Languages and Frameworks,TRUE,Don't use .NET Core - we've moved on to .NET 5.
-ASP.NET Core,adopt,Languages and Frameworks,TRUE,<a href='https://dotnet.microsoft.com/apps/aspnet'>ASP.NET</a>.
-React,adopt,Languages and Frameworks,TRUE,<a href='https://reactjs.org/'>React</a> makes it painless to create interactive UIs.
+ASP.NET Core,adopt,Languages and Frameworks,TRUE,"Cool stuff"
+React,adopt,Languages and Frameworks,TRUE,"Cool stuff"
 Electron,adopt,Platforms,TRUE,Electron has proved itself for developing web-based desktop products. It's our default choice for new desktop-based applications.
 WinForms,hold,Languages and Frameworks,TRUE,Don't use WinForms for new projects - prefer Electron.
 WPF,hold,Languages and Frameworks,TRUE,Don't use WPF for new projects - prefer Electron.
-Blazor.Net,assess,Languages and Frameworks,TRUE,"<a href='https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor'>Blazor</a> is super exciting. It means we might get to leverage our existing C# skills in the browser. It's too early for Redgate to commit to using this in production, so it's in assess so we can keep a good understanding of developments in this area."
+Blazor.Net,assess,Languages and Frameworks,TRUE,"Cool stuff"
 Visual Studio,adopt,Tools,TRUE,Visual Studio is our default IDE for developing in C#. We get the Enterprise edition via our MSDN subscription.
 Rider,adopt,Tools,TRUE,Many teams use Rider instead of Visual Studio for their development. We have licences for it.
 VS Code,adopt,Tools,TRUE,A free lightweight IDE. Our text editor of choice.
@@ -26,21 +24,21 @@ Application Insights,adopt,Tools,TRUE,All applications should use Application In
 Raygun,hold,Tools,TRUE,Deprecated in favour of Application Insights
 Flyway,adopt,Tools,TRUE,Our default tool for migrating database schemas.
 WSL 2,adopt,Tools,TRUE,Windows Subsystem for Linux should be installed on every development machine
-SignalR,adopt,Tools,TRUE,<a href='https://docs.microsoft.com/en-us/aspnet/core/signalr/introduction?view=aspnetcore-5.0'>SignalR</a> is our default choice for push-functionality.
-Hashicorp Vault,adopt,Tools,TRUE,We recommend <a href='https://www.vaultproject.io/'>Hashicorp Vault</a> for storing secrets.
+SignalR,adopt,Tools,TRUE,Cool stuff
+Hashicorp Vault,adopt,Tools,TRUE,We recommend "Cool stuff".
 Keepass files in GitHub,hold,Tools,TRUE,Use a password manager (or Vault) instead.
 Docker,adopt,Tools,TRUE,"Docker should be used as the default containerisation technology. Used for building, testing and deployment."
-gRPC,trial,Tools,TRUE,"<a href='https://grpc.io/'>gRPC</a> is a high-performance RPC framework which we may investigate for high-volume data collection (for example, SQL Monitor)."
+gRPC,trial,Tools,TRUE,"Cool stuff"
 WhiteSource (vulnerability scanning),trial,Tools,TRUE,We currently use WhiteSource for vulnerability scanning. This is currently under review.
-DocFx,trial,Tools,TRUE,<a href='https://dotnet.github.io/docfx/'>DocFX</a> is an extensible and scalable static documentation generator. We're experimenting with it for the <a href='https://progression.red-gate.com'>web version of the progression framework</a>. Could this be a future solution to host our documentation too?
+DocFx,trial,Tools,TRUE,"Cool stuff"
 Makefiles,assess,Tools,TRUE,"Should we fall back to using Makefiles as part of a simpler build process? Again, this is part of our desire to simplify our build process."
-Cake,assess,Tools,TRUE,<a href='https://cakebuild.net/'>Cake</a> is a free and OSS cross-platform build automation system with a C# DSL.
-Bazel,assess,Tools,TRUE,<a href='https://bazel.build/'>Bazel</a> is a build/test tool similar to Make/Maven/Gradle.
-Earthly,assess,Tools,TRUE,<a href='https://earthly.dev/'>Earthly</a> is a syntax for defining your build leading to repeatable and understable builds.
+Cake,assess,Tools,TRUE,"Cool stuff".
+Bazel,assess,Tools,TRUE,"Cool stuff".
+Earthly,assess,Tools,TRUE,"Cool stuff"
 Feature Flagging vendors (Launch Darkly?),assess,Tools,TRUE,If your usage of feature flagging becomes sufficiently complicated then it's time to investigate third-party vendors.
 Virtualbox based Vagrant boxes,hold,Tools,TRUE,Use Docker instead where possible. UI and manual testing may still use Virtualbox.
 Redgate Platform,adopt,Platforms,TRUE,All new applications should be built on the Redgate Platform.
-Kubernetes,adopt,Platforms,TRUE,<a href='https://kubernetes.io/'>K8S</a> is the undeniable winner of orchestration tools.
+Kubernetes,adopt,Platforms,TRUE,"Cool stuff"
 SQL Server as backing store,adopt,Platforms,TRUE,"When a product needs to store more complex data than it can fit in a flat file, we ask the customer for a SQL DB."
 PostgreSQL as backing store,trial,Platforms,TRUE,"If there's a very good reason to use a lightweight/free database engine, we should choose Postgres."
 Windows,adopt,Platforms,TRUE,Windows must be one of our supported target platforms.
