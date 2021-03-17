@@ -1,5 +1,5 @@
 "name","ring","quadrant","isNew","description"
-C#,adopt,Languages and Frameworks,TRUE,"Cool stuff"
+C++,adopt,Languages and Frameworks,TRUE,"Cool stuff"
 Electron,adopt,Platforms,TRUE,"Electron has proved itself for developing web-based desktop products. It's our default choice for new desktop-based applications."
 Bazel,assess,Tools,TRUE,"Cool stuff".
 Earthly,assess,Tools,TRUE,"Cool stuff"
