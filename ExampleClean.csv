@@ -1,4 +1,4 @@
-name,ring,quadrant,isNew,description
+"name","ring","quadrant","isNew","description"
 C#,adopt,Languages and Frameworks,TRUE,"Cool stuff"
 TypeScript,adopt,Languages and Frameworks,TRUE,"Cool stuff"
 Bash,adopt,Languages and Frameworks,TRUE,"Cool stuff"
